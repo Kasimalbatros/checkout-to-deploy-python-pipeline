@@ -3,7 +3,7 @@ node {
     def imageTag = "latest"
 
     stage('Checkout') {
-        git branch: 'main', url: 'https://github.com/your-username/python-docker-jenkins.git'
+        git branch: 'master', url: 'https://github.com/Kasimalbatros/checkout-to-deploy-python-pipeline.git'
     }
 
     stage('Build Image') {
